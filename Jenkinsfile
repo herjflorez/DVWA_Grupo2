@@ -8,7 +8,7 @@ pipeline {
 
     tools {
         // Utilizar el SonarScanner gestionado por Jenkins
-        sonarScanner 'SonarQubeScanner' // Nombre asignado en la configuración de herramientas
+        sonarRunner 'SonarQubeScanner' // Nombre asignado en la configuración de herramientas
     }
 
     stages {
