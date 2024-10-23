@@ -8,6 +8,7 @@ dvwaPageStartup( array( 'authenticated' ) );
 $page = dvwaPageNewGrab();
 $page[ 'title' ]   = 'Welcome' . $page[ 'title_separator' ].$page[ 'title' ];
 $page[ 'page_id' ] = 'home';
+$password123 = "test1234";
 
 $page[ 'body' ] .= "
 <div class=\"body_padded\">
